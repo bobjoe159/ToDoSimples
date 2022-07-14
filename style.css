@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  padding: 10px 10px;
+}
+
+
+main {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-block: 20px;
+}
+
+.addTask {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-block: 15px;
+  background-color: rgb(91, 91, 239);
+  color: white;
+  border: none;
+}
+
+.addTask:hover {
+  cursor: pointer;
+}
+
+.listaNav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.searchInput,
+.inputSelect,
+.inputTitle {
+  padding: 10px 10px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputTitle,
+.inputSelect {
+  width: 45%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+.cardTask {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(207, 207, 207);
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(59, 59, 59)
+}
+
+.cardTask button {
+  border: none;
+  background-color: rgb(91, 91, 239);
+  color: white;
+}
+
+.statusGreen {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(101, 227, 101,0.8);
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.statusRed {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(250, 85, 20, 0.8);
+  border-radius: 50%;
+  margin-left: 5px;
+}

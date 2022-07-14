@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css" />
+    <title>My Tasks</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="listaNav">
+          <li class="tituloPrincipal">
+            <p>My Tasks</p>
+          </li>
+          <li>
+            <input
+              class="searchInput"
+              type="text"
+              name=""
+              placeholder="Pesquisar Tarefa"
+              id=""
+            />
+            <button type="submit">Pesquisar</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Inserir Tarefa</h1>
+        <div class="camposSearch">
+          <div class="inputs">
+            <input
+              class="inputTitle"
+              type="text"
+              value=""
+              placeholder="Digite o título da tarefa"
+            />
+            <select name="inputSelect" class="inputSelect">
+              <option value="Realizada">Realizada</option>
+              <option value="Não Realizada">Não Realizada</option>
+            </select>
+          </div>
+          <button class="addTask" type="submit">
+            Adicionar tarefa na lista
+          </button>
+        </div>
+      </section>
+      <section>
+        <h2>Tarefas</h2>
+        <div class="tasks"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
