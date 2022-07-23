@@ -94,7 +94,15 @@ h2 {
 .statusRed {
   width: 20px;
   height: 20px;
-  background-color: rgba(250, 85, 20, 0.8);
+  background-color: rgba(255, 0, 0, 0.8);
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.statusOrange {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(227, 111, 65, 0.8);
   border-radius: 50%;
   margin-left: 5px;
 }

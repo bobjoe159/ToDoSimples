@@ -61,11 +61,11 @@ function criarCard(tarefa, indiceAtual) {
   let button = document.createElement('button')
   cardTask.append(divBall, p, button)
 
-  if (tarefa.status == 'Realizada') {
+  if (tarefa.status == 'Baixa') {
     divBall.classList.add('statusGreen')
-  } else {
-    divBall.classList.add('statusRed')
-  }
+  } else if (tarefa.status == 'Média') {
+    divBall.classList.add('statusOrange')
+  } else divBall.classList.add('statusRed')
 
   cardTask.classList.add('cardTask')
   p.innerHTML = `${tarefa.task}`
